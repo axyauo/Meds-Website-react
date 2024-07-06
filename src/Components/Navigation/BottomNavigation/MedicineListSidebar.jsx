@@ -16,28 +16,28 @@ const MedicineListSidebar = ({ isOpen, onClose }) => {
         <Link to="/buy-adderall-online">
           <li>Buy Adderall Online</li>
         </Link>
-        <Link to="/buy-ambien-online">
+        <Link to="/buy-adderall-online">
           <li>Buy Ambien Online</li>
         </Link>
-        <Link to="/buy-ativan-online">
+        <Link to="/buy-adderall-online">
           <li>Buy Ativan Online</li>
         </Link>
-        <Link to="/buy-butalbital-online">
+        <Link to="/buy-adderall-online">
           <li>Buy Butalbital Online</li>
         </Link>
-        <Link to="/buy-carisoprodol-online">
+        <Link to="/buy-adderall-online">
           <li>Buy Carisoprodol Online</li>
         </Link>
-        <Link to="/buy-clonazepam-online">
+        <Link to="/buy-adderall-online">
           <li>Buy Clonazepam Online</li>
         </Link>
-        <Link to="/buy-fioricet-online">
+        <Link to="/buy-adderall-online">
           <li>Buy Fioricet Online</li>
         </Link>
-        <Link to="/buy-gabapentin-online">
+        <Link to="/buy-adderall-online">
           <li>Buy Gabapentin Online</li>
         </Link>
-        <Link to="/buy-hydrocodone-online">
+        <Link to="/buy-adderall-online">
           <li>Buy Hydrocodone Online</li>
         </Link>
         <Link to="/buy-klonopin-online">

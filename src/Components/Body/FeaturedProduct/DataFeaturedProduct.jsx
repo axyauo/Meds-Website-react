@@ -1,0 +1,57 @@
+import slide from "../../images/slide.webp";
+let DataFeaturedProduct = [
+  {
+    image: slide,
+    title: "BUY TRAMADOL ONLINE",
+    name: "TRAKEM 100MG",
+    price: "340.00 – 410.00",
+    sold_item: "119",
+    link: "#",
+  },
+  {
+    image: slide,
+    title: "BUY TRAMADOL ONLINE",
+    name: "OL-TRAM 100MG",
+    price: "340.00 – 410.00",
+    sold_item: "44",
+    link: "#",
+    id: 2,
+  },
+  {
+    image: slide,
+    title: "BUY AMBIEN ONLINE",
+    name: "BELBIEN 10MG",
+    price: "400.00 – 600.00",
+    sold_item: "45",
+    link: "#",
+    id: 3,
+  },
+  {
+    image: slide,
+    title: "BUY CLONAZEPAM ONLINE ",
+    name: "RIVOTRIL 2MG",
+    price: "330.00 – 880.00",
+    sold_item: "125",
+    link: "#",
+    id: 4,
+  },
+  {
+    image: slide,
+    title: "BUY TRAMADOL ONLINE",
+    name: "TRAMADOL 100MG (CITRA)",
+    price: "300.00",
+    sold_item: "87",
+    link: "#",
+    id: 5,
+  },
+  {
+    image: slide,
+    title: "PAIN O SOMA BUY SOMA ONLINE",
+    name: "PAIN O SOMA 350MG",
+    price: "299.00 – 599.00",
+    sold_item: "82",
+    link: "#",
+    id: 6,
+  },
+];
+export default DataFeaturedProduct;

@@ -1,0 +1,21 @@
+.top_category {
+  list-style: none;
+  padding: 0;
+}
+.top_category li:hover {
+  color: #af0000;
+  font-weight: 600;
+}
+
+.top_category li {
+  background: #e6e6e6;
+  color: black;
+  padding: 10px;
+  border-bottom: 2px solid white;
+}
+.top_category_heading {
+  background: #af0000 !important;
+  color: white !important;
+  font-weight: 700 !important;
+  font-size: 20px;
+}

@@ -1,0 +1,13 @@
+.btn_01:hover {
+  transform: translatey(-5px);
+}
+
+.btn_01 {
+  padding: 5px 20px;
+  background: #af0000;
+  border: 2px solid #af0000;
+  color: white;
+  font-weight: 600;
+  font-family: "Lato";
+  transition: transform 0.5s ease;
+}

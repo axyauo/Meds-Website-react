@@ -1,0 +1,17 @@
+.heading_h3 {
+  position: relative;
+  text-align: center;
+  margin: 1em 0;
+  font-weight: 700;
+  font-size: 30px;
+}
+.heading_h3:before {
+  content: "";
+  background: var(--color);
+  height: 3px;
+  width: 100px;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}

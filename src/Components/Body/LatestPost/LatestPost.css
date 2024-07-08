@@ -60,14 +60,14 @@
 
 .lower_div span {
   font-size: 14px;
-  color: #75726a;
+  color: var(--green);
   font-weight: 700;
 }
 
 .lower_div h6 {
   font-size: 18px;
   font-weight: 600;
-  color: #af0000;
+  color: var(--color);
 }
 
 .lower_div p {

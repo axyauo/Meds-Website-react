@@ -10,6 +10,9 @@
 .footer_img img {
   width: 100%;
   height: auto;
+  background: white;
+  padding: 1em;
+  border-radius: 5px;
 }
 .footer_h3 {
   font-family: "Arial", sans-serif;
@@ -71,7 +74,7 @@
 
 .contact-us p i {
   margin-right: 10px;
-  color: var(--color);
+  color: white;
 }
 
 .contact-us a {

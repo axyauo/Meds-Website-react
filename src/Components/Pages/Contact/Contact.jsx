@@ -45,9 +45,16 @@ const Contact = () => {
           <section className="contactInfo">
             <h2>Contact Information</h2>
             <ul>
-              <li>Email: info@medsapp.com</li>
-              <li>Phone: +1 (123) 456-7890</li>
-              <li>Address: 123 Medicine Street, City, Country</li>
+              <li>
+                Email: <a href="mailto: info@getmedy.com">info@getmedy.com</a>
+              </li>
+              <li>
+                Phone: <a href="tel: +13155105500">+1 (315) 510-5500</a>
+              </li>
+              <li>
+                Address: 202 Bluff St, Crystal River, FL 34428, Florida 34428,
+                USA
+              </li>
             </ul>
           </section>
         </main>

@@ -86,3 +86,6 @@
   margin-bottom: 10px;
   font-size: 1.1em;
 }
+.contactInfo ul li a {
+  color: black !important;
+}

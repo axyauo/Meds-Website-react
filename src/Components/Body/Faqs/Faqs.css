@@ -73,10 +73,14 @@
 }
 .accordion-button:focus {
   outline: none;
-  box-shadow: 0 0 0 3px rgba(247, 48, 48, 0.39) !important;
+  box-shadow: 0 0 0 3px var(--green) !important;
 }
 .accordion-button:not(.collapsed) {
   background: var(--color) !important;
   border: var(--color) !important;
   color: white !important;
+}
+.inner_post h4 {
+  color: var(--green) !important;
+  font-size: 28px;
 }

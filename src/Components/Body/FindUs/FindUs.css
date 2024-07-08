@@ -44,14 +44,14 @@
 
 .overlay_form .contact-form .form-control:focus {
   outline: none;
-  border-color: #007bff;
+  border-color: var(--color);
 }
 
 .overlay_form .contact-form .btn {
   display: block;
   width: 100%;
   padding: 10px;
-  background-color: #d9534f;
+  background-color: var(--color);
   color: white;
   border: none;
   border-radius: 5px;
@@ -59,7 +59,7 @@
 }
 
 .overlay_form .contact-form .btn:hover {
-  background-color: #c9302c;
+  background-color: var(--green);
 }
 
 .overlay_form .contact-details {

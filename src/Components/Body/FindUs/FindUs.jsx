@@ -1,6 +1,7 @@
 import React from "react";
 import map from "../../images/map.png";
 import "./FindUs.css";
+import { Link } from "react-router-dom";
 
 export default function FindUs() {
   const backgroundStyle = {
@@ -73,19 +74,23 @@ export default function FindUs() {
               <div className="contact-details">
                 <h2>Contact Data</h2>
                 <p>
-                  <b>Phone:</b> +1234567890
+                  <b>Phone:</b>{" "}
+                  <a href="tel: +13155105500">+1 (315) 510-5500</a>
                 </p>
                 <p>
-                  <b>Email:</b> contact@example.com
+                  <b>Email:</b>{" "}
+                  <a href="mailto: info@getmedy.com">info@getmedy.com</a>
                 </p>
                 <p>
-                  <b>Address:</b> 1234 Example St, City, Country
+                  <b>Address:</b> 202 Bluff St, Crystal River, FL 34428, Florida
+                  34428, USA
                 </p>
                 <p>
                   <b>Opening Hour:</b> 24*7 Opens
                 </p>
                 <p>
-                  <b>Website:</b> https://demomeds_website.com
+                  <b>Website:</b>{" "}
+                  <Link to="https://getmedy.com/">https://getmedy.com/</Link>
                 </p>
               </div>
             </div>

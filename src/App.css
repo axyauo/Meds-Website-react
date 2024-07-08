@@ -1,5 +1,7 @@
 :root {
-  --color: #af0000;
+  /* --color: #af0000; */
+  --color: #004e9f;
+  --green: #77c91e;
 }
 * {
   margin: 0;
@@ -164,7 +166,7 @@ html {
   position: absolute;
   width: 50%;
   height: 4px;
-  background: var(--color);
+  background: var(--green);
   left: 25%;
   bottom: 0;
   border-radius: 2px;

@@ -17,7 +17,7 @@
   border-radius: 5px;
 }
 .top_slide_content span {
-  color: #af0000;
+  color: var(--green);
   font-weight: 700;
   font-size: 20px;
 }
@@ -37,15 +37,15 @@
 }
 .content_box button {
   padding: 2px 15px;
-  border: 1px solid #af0000;
+  border: 1px solid var(--green);
   font-family: "Lato";
-  color: #af0000;
+  color: var(--green);
   background: transparent;
   transition: background 0.3s ease;
 }
 .content_box button:hover {
   color: white;
-  background: #af0000;
+  background: var(--green);
 }
 
 .content_box {
@@ -55,5 +55,5 @@
 .content_box i {
   padding-left: 10px;
   margin-top: 5px;
-  color: #af0000;
+  color: var(--green);
 }

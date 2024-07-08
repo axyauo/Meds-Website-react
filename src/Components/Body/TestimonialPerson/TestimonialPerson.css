@@ -24,7 +24,7 @@
   font-weight: 600;
 }
 .testimonial h4 {
-  color: #af0000;
+  color: var(--color);
   font-size: 28px;
   font-weight: 800;
   font-family: "bootstrap-icons" !important;

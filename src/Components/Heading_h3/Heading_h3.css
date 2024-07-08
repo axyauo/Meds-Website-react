@@ -7,9 +7,9 @@
 }
 .heading_h3:before {
   content: "";
-  background: var(--color);
-  height: 3px;
-  width: 100px;
+  background: var(--green);
+  height: 4px;
+  width: 110px;
   position: absolute;
   bottom: -10px;
   left: 50%;

@@ -11,9 +11,11 @@ export default function Footer() {
           <div className="row">
             <div className="col-lg-4 col-md-6 col-12">
               <div className="intro_footer">
-                <div className="footer_img">
-                  <img src={logo} alt="" />
-                </div>
+                <Link to="./">
+                  <div className="footer_img">
+                    <img src={logo} alt="Logo" />
+                  </div>
+                </Link>
                 <p>
                   Our Head branch is located in Florida, USA. We ship all over
                   the USA in partnership with major courier delivery companies
@@ -73,22 +75,20 @@ export default function Footer() {
                   <p>
                     <i class="bi bi-geo-alt-fill"></i>
                     <Link
-                      to="https://www.google.com/maps/search/?api=1&query=107-95+West+Brooklyn,+USA"
+                      to="https://maps.app.goo.gl/P2fyxQ3ihDVbEwZc9"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      107-95 West Brooklyn, USA
+                      202 Bluff St, Crystal River, FL 34428, Florida 34428, USA
                     </Link>
                   </p>
                   <p>
                     <i class="bi bi-envelope-fill"></i>
-                    <Link to="mailto:contact@meds_demo.com">
-                      contact@meds_demo.com
-                    </Link>
+                    <Link to="mailto:info@getmedy.com">info@getmedy.com</Link>
                   </p>
                   <p>
                     <i class="bi bi-telephone-fill"></i>
-                    <Link to="tel:+916987652487">+91 6987652487</Link>
+                    <Link to="tel:+1 315 510 5500">+1-315-510-5500</Link>
                   </p>
                   <p>
                     <i class="bi bi-browser-edge"></i>

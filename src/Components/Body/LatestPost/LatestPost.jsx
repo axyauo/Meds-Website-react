@@ -6,13 +6,10 @@ import Heading_h3 from "../../Heading_h3/Heading_h3";
 import PostContent from "./PostContent";
 
 export default function LatestPost() {
-  const location = useLocation(); // Get the current location using useLocation hook
-
-  let itemsToShow = DataLatestPost; // Default to showing all items
-
-  // Check if the current URL path is '/'
+  const location = useLocation();
+  let itemsToShow = DataLatestPost;
   if (location.pathname === "/") {
-    itemsToShow = DataLatestPost.slice(0, 4); // Show only the first 4 items
+    itemsToShow = DataLatestPost.slice(0, 4);
   }
 
   return (

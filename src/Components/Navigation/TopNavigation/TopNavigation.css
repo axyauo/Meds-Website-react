@@ -61,3 +61,26 @@
   -webkit-background-clip: text;
   color: transparent;
 }
+@media (max-width: 576px) {
+  .contact_section {
+    display: none;
+  }
+  .account-title {
+    display: none;
+  }
+}
+@media (min-width: 577px) {
+  .small-scrn {
+    display: none;
+  }
+}
+.small-scrn img {
+  width: 100%;
+  height: auto;
+}
+.small-scrn {
+  background: white;
+  width: 40%;
+  padding: 5px;
+  border-radius: 5px;
+}

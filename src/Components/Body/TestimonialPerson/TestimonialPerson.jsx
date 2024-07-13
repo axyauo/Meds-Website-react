@@ -8,13 +8,13 @@ import "slick-carousel/slick/slick-theme.css";
 
 export default function TestimonialPerson() {
   let testimonial = DataTestimonialPerson.map((testimo) => (
-    <div className="col-lg-4 col-md-6 col-12">
+    <div className="col-lg-4 col-md-6 col-12" key={testimo.id}>
       <div className="testimonial position-relative">
         <div className="testi_img">
-          <img src={testimo.image} alt={testimo.name} />
+          <img src={testimo.image} alt={testimo.name} loading="lazy" />
         </div>
         <div className="logo_imgg">
-          <i class="bi bi-quote"></i>
+          <i className="bi bi-quote"></i>
         </div>
         <h4>{testimo.name}</h4>
         <span>{testimo.designation}</span>

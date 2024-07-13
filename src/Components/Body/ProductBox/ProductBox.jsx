@@ -1,5 +1,6 @@
 import React from "react";
 import "./ProductBox.css";
+import { Link } from "react-router-dom";
 
 export default function ProductBox({ product }) {
   return (
@@ -9,7 +10,7 @@ export default function ProductBox({ product }) {
           <div className="row">
             <div className="col-5">
               <div className="top_slide_img">
-                <img src={product.image} alt={product.name} />
+                <img src={product.image} alt={product.name} loading="lazy" />
               </div>
             </div>
             <div className="col-7">
@@ -17,16 +18,16 @@ export default function ProductBox({ product }) {
                 <p>{product.title}</p>
                 <h6>{product.name}</h6>
                 <span>
-                  <i className="bi bi-currency-rupee"></i> {product.price}
+                  <i className="bi bi-currency-dollar"></i> {product.price}
                 </span>
                 <p>
-                  <i className="bi bi-bar-chart-line-fill"></i>{" "}
+                  <i className="bi bi-bar-chart-line-fill"></i>
                   {product.sold_item} Item Sold
                 </p>
                 <div className="content_box">
-                  <a href={product.link}>
+                  <Link to={product.link}>
                     <button>Buy Now</button>
-                  </a>
+                  </Link>
                   <i className="bi bi-heart"></i>
                   <i className="bi bi-search"></i>
                   <i className="bi bi-arrow-clockwise"></i>

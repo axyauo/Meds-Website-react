@@ -20,10 +20,10 @@ export default function BottomNavigation() {
   };
   return (
     <>
-      <nav class="navbar navbar-expand-lg bg-color">
-        <div class="container">
+      <nav className="navbar navbar-expand-lg bg-color">
+        <div className="container">
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -31,56 +31,57 @@ export default function BottomNavigation() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <Link class="nav-link active" aria-current="page" to="/">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" to="/">
                   Home
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link" to="/about">
+              <li className="nav-item">
+                <Link className="nav-link" to="/about">
                   About
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link" to="/contact">
+              <li className="nav-item">
+                <Link className="nav-link" to="/contact">
                   Contact
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link" to="/shop">
+              <li className="nav-item">
+                <Link className="nav-link" to="/shop">
                   Shop
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link" to="/blog">
+              <li className="nav-item">
+                <Link className="nav-link" to="/blog">
                   Blog
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link" to="/faqs">
+              <li className="nav-item">
+                <Link className="nav-link" to="/featured-product">
+                  Product
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/faqs">
                   FAQs
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/buy-now">
+                  Buy Now
                 </Link>
               </li>
             </ul>
           </div>
-          {/* <div className="mobile_view">
-            <div className="cartValue">
-              <button>
-                <i class="bi bi-cart-fill"></i>
-              </button>
-              <span class="af-cart-amount gbl-bdge-bck-c">$0.00</span>
-            </div>
-            <i class="bi bi-search"></i>
-          </div> */}
           <div className="another_list">
             <div className="mobile_view">
-              <i class="bi bi-cart-fill"></i>
-              <span class="af-cart-amount gbl-bdge-bck-c">$0.00</span>
-              <i class="bi bi-search"></i>
+              <i className="bi bi-cart-fill"></i>
+              <span className="af-cart-amount gbl-bdge-bck-c">$0.00</span>
+              <i className="bi bi-search"></i>
             </div>
             <div
               type="button"
@@ -91,7 +92,7 @@ export default function BottomNavigation() {
               <i className="bi bi-person-circle"></i>
             </div>
 
-            <i class="bi bi-heart"></i>
+            <i className="bi bi-heart"></i>
             <i className="bi bi-list" onClick={toggleSidebar}></i>
           </div>
         </div>

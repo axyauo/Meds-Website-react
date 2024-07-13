@@ -43,65 +43,61 @@ export default function About() {
                   <Link to="/buy-adderall-online">Buy Adderall Online</Link>
                 </li>
                 <li>
-                  <Link to="/buy-ambien-online">Buy Ambien Online</Link>
+                  <Link to="/buy-adderall-online">Buy Ambien Online</Link>
                 </li>
                 <li>
-                  <Link to="/buy-ativan-online">Buy Ativan Online</Link>
+                  <Link to="/buy-adderall-online">Buy Ativan Online</Link>
                 </li>
                 <li>
-                  <Link to="/buy-butalbital-online">Buy Butalbital Online</Link>
+                  <Link to="/buy-adderall-online">Buy Butalbital Online</Link>
                 </li>
                 <li>
-                  <Link to="/buy-carisoprodol-online">
-                    Buy Carisoprodol Online
-                  </Link>
+                  <Link to="/buy-adderall-online">Buy Carisoprodol Online</Link>
                 </li>
                 <li>
-                  <Link to="/buy-clonazepam-online">Buy Clonazepam Online</Link>
+                  <Link to="/buy-adderall-online">Buy Clonazepam Online</Link>
                 </li>
                 <li>
-                  <Link to="/buy-fioricet-online">Buy Fioricet Online</Link>
+                  <Link to="/buy-adderall-online">Buy Fioricet Online</Link>
                 </li>
                 <li>
-                  <Link to="/buy-gabapentin-online">Buy Gabapentin Online</Link>
+                  <Link to="/buy-adderall-online">Buy Gabapentin Online</Link>
                 </li>
                 <li>
-                  <Link to="/buy-hydrocodone-online">
-                    Buy Hydrocodone Online
-                  </Link>
+                  <Link to="/buy-adderall-online">Buy Hydrocodone Online</Link>
                 </li>
                 <li>
-                  <Link to="/buy-klonopin-online">Buy Klonopin Online</Link>
+                  <Link to="/buy-adderall-online">Buy Klonopin Online</Link>
                 </li>
                 <li>
-                  <Link to="/buy-ksalol-online">Buy Ksalol Online</Link>
+                  <Link to="/buy-adderall-online">Buy Ksalol Online</Link>
                 </li>
                 <li>
-                  <Link to="/buy-oxycodone-online">Buy Oxycodone Online</Link>
+                  <Link to="/buy-adderall-online">Buy Oxycodone Online</Link>
                 </li>
                 <li>
-                  <Link to="/buy-percocet-online">Buy Percocet Online</Link>
+                  <Link to="/buy-adderall-online">Buy Percocet Online</Link>
                 </li>
                 <li>
-                  <Link to="/buy-soma-online">Buy Soma Online</Link>
+                  <Link to="/buy-adderall-online">Buy Soma Online</Link>
                 </li>
                 <li>
-                  <Link to="/buy-tapentadol-online">Buy Tapentadol Online</Link>
+                  <Link to="/buy-adderall-online">Buy Tapentadol Online</Link>
                 </li>
                 <li>
-                  <Link to="/buy-tramadol-online">Buy Tramadol Online</Link>
+                  <Link to="/buy-adderall-online">Buy Tramadol Online</Link>
                 </li>
                 <li>
-                  <Link to="/buy-valium-online">Buy Valium Online</Link>
+                  <Link to="/buy-adderall-online">Buy Valium Online</Link>
                 </li>
                 <li>
-                  <Link to="/buy-xanax-online">Buy Xanax Online</Link>
+                  <Link to="/buy-adderall-online">Buy Xanax Online</Link>
                 </li>
                 <li>
-                  <Link to="/buy-zolpidem-online">Buy Zolpidem Online</Link>
+                  <Link to="/buy-adderall-online">Buy Zolpidem Online</Link>
                 </li>
                 <li>
-                  <Link to="/pain-o-soma">Pain O Soma</Link>
+                  <Link to="/buy-adderall-online">Pain O Soma</Link>
                 </li>
                 <li>
                   <Link to="/xanax-bars">Xanax Bars</Link>

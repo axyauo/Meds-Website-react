@@ -1,13 +1,19 @@
-import React from "react";
 import ProductBox from "../ProductBox/ProductBox";
 import DataFeaturedProduct from "./DataFeaturedProduct";
 import Heading_h3 from "../../Heading_h3/Heading_h3";
 import "./FeaturedProduct.css";
+import Button01 from "../../Button/Button01";
+import { Link, useLocation } from "react-router-dom";
 
 export default function FeaturedProduct() {
+  const location = useLocation();
+  let itemsToShow = DataFeaturedProduct;
+  if (location.pathname === "/") {
+    itemsToShow = DataFeaturedProduct.slice(0, 6);
+  }
   return (
     <>
-      <section className="bg-color1 py-5">
+      <section className="py-5 bg-color1">
         <div className="container">
           <div className="row">
             <div className="col-lg-3 col-md-6 col-12">
@@ -47,28 +53,25 @@ export default function FeaturedProduct() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      <section className="py-4">
+        <div className="container">
           <Heading_h3 title="Featured Product" />
           <div className="row">
-            {DataFeaturedProduct.map((product) => (
-              <div className="col-lg-4 col-12">
+            {itemsToShow.map((product) => (
+              <div className="col-lg-4 col-12" key={product.id}>
                 <ProductBox product={product} />
               </div>
             ))}
+          </div>
+          <div className="text-center my-3">
+            <Link to="/featured-product">
+              <Button01 name="View More" />
+            </Link>
           </div>
         </div>
       </section>
-      {/* <section>
-        <div className="container mb-5">
-          <Heading_h3 title="Featured Product" />
-          <div className="row">
-            {DataFeaturedProduct.map((product) => (
-              <div className="col-lg-4 col-12">
-                <ProductBox product={product} />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section> */}
     </>
   );
 }

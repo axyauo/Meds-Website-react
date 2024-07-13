@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Shopproduct({ product }) {
   return (
     <>
       <div className="sliders">
         <div className="top_slide_img">
-          <img src={product.image} alt={product.name} />
+          <img src={product.image} alt={product.name} loading="lazy" />
         </div>
         <div className="top_slide_content text-center">
           <p>{product.title}</p>
@@ -18,9 +19,9 @@ export default function Shopproduct({ product }) {
             Item Sold
           </p>
           <div className="content_box flex-column">
-            <a href={product.link}>
+            <Link to={product.link}>
               <button>Buy Now</button>
-            </a>
+            </Link>
             <div className="mt-2">
               <i className="bi bi-heart"></i>
               <i className="bi bi-search"></i>

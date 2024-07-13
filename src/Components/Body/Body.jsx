@@ -6,12 +6,14 @@ import TestimonialPerson from "./TestimonialPerson/TestimonialPerson";
 import FindUs from "./FindUs/FindUs";
 import Faqs from "./Faqs/Faqs";
 import LatestPost from "./LatestPost/LatestPost";
+import HomePageContent from "./HomePageContent/HomePageContent";
 
 export default function Body() {
   return (
     <>
       <Banner />
       <FeaturedProduct />
+      <HomePageContent />
       <ProductGrid />
       <TestimonialPerson />
       <FindUs />

@@ -8,11 +8,11 @@ export default function Faqs() {
       <section>
         <div className="container my-5">
           <Heading_h3 title="Frequently Asked Questions" />
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
+          <div className="accordion" id="accordionExample">
+            <div className="accordion-item">
+              <h3 className="accordion-header">
                 <button
-                  class="accordion-button"
+                  className="accordion-button"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseOne"
@@ -21,23 +21,23 @@ export default function Faqs() {
                 >
                   How long time we take to reach you?
                 </button>
-              </h2>
+              </h3>
               <div
                 id="collapseOne"
-                class="accordion-collapse collapse show"
+                className="accordion-collapse collapse show"
                 data-bs-parent="#accordionExample"
               >
-                <div class="accordion-body">
+                <div className="accordion-body">
                   Our shipping includes seven business days to reach your
                   doorsteps. Make sure your provided address is correct so that
                   we can find you easily.
                 </div>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
+            <div className="accordion-item">
+              <h3 className="accordion-header">
                 <button
-                  class="accordion-button collapsed"
+                  className="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseTwo"
@@ -46,23 +46,23 @@ export default function Faqs() {
                 >
                   What is our delivery area concern?
                 </button>
-              </h2>
+              </h3>
               <div
                 id="collapseTwo"
-                class="accordion-collapse collapse"
+                className="accordion-collapse collapse"
                 data-bs-parent="#accordionExample"
               >
-                <div class="accordion-body">
+                <div className="accordion-body">
                   We provide our medicines delivery to all the USA zoned
                   peoples. We can comfortably deliver our order to any address
                   under the USA.
                 </div>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
+            <div className="accordion-item">
+              <h3 className="accordion-header">
                 <button
-                  class="accordion-button collapsed"
+                  className="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseThree"
@@ -71,13 +71,13 @@ export default function Faqs() {
                 >
                   What is our cost concern?
                 </button>
-              </h2>
+              </h3>
               <div
                 id="collapseThree"
-                class="accordion-collapse collapse"
+                className="accordion-collapse collapse"
                 data-bs-parent="#accordionExample"
               >
-                <div class="accordion-body">
+                <div className="accordion-body">
                   Along with providing a genuine medicine, we maintain an equal
                   legacy with the charges. Importantly we neither add any extra
                   charges nor add any hidden fee. We only add shipping charges
@@ -85,10 +85,10 @@ export default function Faqs() {
                 </div>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
+            <div className="accordion-item">
+              <h3 className="accordion-header">
                 <button
-                  class="accordion-button collapsed"
+                  className="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseFour"
@@ -97,13 +97,13 @@ export default function Faqs() {
                 >
                   What is our safety concern for medication?
                 </button>
-              </h2>
+              </h3>
               <div
                 id="collapseFour"
-                class="accordion-collapse collapse"
+                className="accordion-collapse collapse"
                 data-bs-parent="#accordionExample"
               >
-                <div class="accordion-body">
+                <div className="accordion-body">
                   Delivering you your medicine in a safe state is our first and
                   prior area. Hence the medication you order/purchase at
                   usamedschoice.com is manufactured in a certified laboratory

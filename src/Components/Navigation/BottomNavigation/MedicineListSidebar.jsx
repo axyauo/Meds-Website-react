@@ -13,69 +13,69 @@ const MedicineListSidebar = ({ isOpen, onClose }) => {
         </button>
       </div>
       <ul className="medicine-list">
-        <Link to="/buy-adderall-online">
-          <li>Buy Adderall Online</li>
-        </Link>
-        <Link to="/buy-adderall-online">
-          <li>Buy Ambien Online</li>
-        </Link>
-        <Link to="/buy-adderall-online">
-          <li>Buy Ativan Online</li>
-        </Link>
-        <Link to="/buy-adderall-online">
-          <li>Buy Butalbital Online</li>
-        </Link>
-        <Link to="/buy-adderall-online">
-          <li>Buy Carisoprodol Online</li>
-        </Link>
-        <Link to="/buy-adderall-online">
-          <li>Buy Clonazepam Online</li>
-        </Link>
-        <Link to="/buy-adderall-online">
-          <li>Buy Fioricet Online</li>
-        </Link>
-        <Link to="/buy-adderall-online">
-          <li>Buy Gabapentin Online</li>
-        </Link>
-        <Link to="/buy-adderall-online">
-          <li>Buy Hydrocodone Online</li>
-        </Link>
-        <Link to="/buy-klonopin-online">
-          <li>Buy Klonopin Online</li>
-        </Link>
-        <Link to="/buy-ksalol-online">
-          <li>Buy Ksalol Online</li>
-        </Link>
-        <Link to="/buy-oxycodone-online">
-          <li>Buy Oxycodone Online</li>
-        </Link>
-        <Link to="/buy-percocet-online">
-          <li>Buy Percocet Online</li>
-        </Link>
-        <Link to="/buy-soma-online">
-          <li>Buy Soma Online</li>
-        </Link>
-        <Link to="/buy-tapentadol-online">
-          <li>Buy Tapentadol Online</li>
-        </Link>
-        <Link to="/buy-tramadol-online">
-          <li>Buy Tramadol Online</li>
-        </Link>
-        <Link to="/buy-valium-online">
-          <li>Buy Valium Online</li>
-        </Link>
-        <Link to="/buy-xanax-online">
-          <li>Buy Xanax Online</li>
-        </Link>
-        <Link to="/buy-zolpidem-online">
-          <li>Buy Zolpidem Online</li>
-        </Link>
-        <Link to="/pain-o-soma">
-          <li>Pain O Soma</li>
-        </Link>
-        <Link to="/xanax-bars">
-          <li>Xanax Bars</li>
-        </Link>
+        <li>
+          <Link to="/buy-adderall-online">Buy Adderall Online</Link>
+        </li>
+        <li>
+          <Link to="/buy-adderall-online">Buy Ambien Online</Link>
+        </li>
+        <li>
+          <Link to="/buy-adderall-online">Buy Ativan Online</Link>
+        </li>
+        <li>
+          <Link to="/buy-adderall-online">Buy Butalbital Online</Link>
+        </li>
+        <li>
+          <Link to="/buy-adderall-online">Buy Carisoprodol Online</Link>
+        </li>
+        <li>
+          <Link to="/buy-adderall-online">Buy Clonazepam Online</Link>
+        </li>
+        <li>
+          <Link to="/buy-adderall-online">Buy Fioricet Online</Link>
+        </li>
+        <li>
+          <Link to="/buy-adderall-online">Buy Gabapentin Online</Link>
+        </li>
+        <li>
+          <Link to="/buy-adderall-online">Buy Hydrocodone Online</Link>
+        </li>
+        <li>
+          <Link to="/buy-adderall-online">Buy Klonopin Online</Link>
+        </li>
+        <li>
+          <Link to="/buy-adderall-online">Buy Ksalol Online</Link>
+        </li>
+        <li>
+          <Link to="/buy-adderall-online">Buy Oxycodone Online</Link>
+        </li>
+        <li>
+          <Link to="/buy-adderall-online">Buy Percocet Online</Link>
+        </li>
+        <li>
+          <Link to="/buy-adderall-online">Buy Soma Online</Link>
+        </li>
+        <li>
+          <Link to="/buy-adderall-online">Buy Tapentadol Online</Link>
+        </li>
+        <li>
+          <Link to="/buy-adderall-online">Buy Tramadol Online</Link>
+        </li>
+        <li>
+          <Link to="/buy-adderall-online">Buy Valium Online</Link>
+        </li>
+        <li>
+          <Link to="/buy-adderall-online">Buy Xanax Online</Link>
+        </li>
+        <li>
+          <Link to="/buy-adderall-online">Buy Zolpidem Online</Link>
+        </li>
+        <li>
+          <Link to="/buy-adderall-online">Pain O Soma</Link>
+        </li>
+        <li>
+          <Link to="/buy-adderall-online">Xanax Bars</Link>
+        </li>
       </ul>
     </div>
   );

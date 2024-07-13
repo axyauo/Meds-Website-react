@@ -13,7 +13,7 @@ export default function Footer() {
               <div className="intro_footer">
                 <Link to="./">
                   <div className="footer_img">
-                    <img src={logo} alt="Logo" />
+                    <img src={logo} alt="Logo" loading="lazy" />
                   </div>
                 </Link>
                 <p>
@@ -52,28 +52,26 @@ export default function Footer() {
                   <h3 className="footer_h3">Categories</h3>
                   <ul>
                     <li>
-                      <Link to="#featured-categories">Featured Categories</Link>
+                      <Link to="">Featured Categories</Link>
                     </li>
                     <li>
-                      <Link to="#product-grid">Product Grid</Link>
+                      <Link to="">Product Grid</Link>
                     </li>
                     <li>
-                      <Link to="#our-clients">Our Clients</Link>
+                      <Link to="">Our Clients</Link>
                     </li>
                     <li>
-                      <Link to="#latest-post">Latest Post</Link>
+                      <Link to="/blog">Latest Post</Link>
                     </li>
                     <li>
-                      <Link to="#top-selling-products">
-                        Top Selling Products
-                      </Link>
+                      <Link to="">Top Selling Products</Link>
                     </li>
                   </ul>
                 </div>
                 <div className="col-lg-4 col-md-6 col-12 contact-us">
                   <h3 className="footer_h3">Contact Us</h3>
                   <p>
-                    <i class="bi bi-geo-alt-fill"></i>
+                    <i className="bi bi-geo-alt-fill"></i>
                     <Link
                       to="https://maps.app.goo.gl/P2fyxQ3ihDVbEwZc9"
                       target="_blank"
@@ -83,23 +81,57 @@ export default function Footer() {
                     </Link>
                   </p>
                   <p>
-                    <i class="bi bi-envelope-fill"></i>
+                    <i className="bi bi-envelope-fill"></i>
                     <Link to="mailto:info@getmedy.com">info@getmedy.com</Link>
                   </p>
                   <p>
-                    <i class="bi bi-telephone-fill"></i>
+                    <i className="bi bi-telephone-fill"></i>
                     <Link to="tel:+1 315 510 5500">+1-315-510-5500</Link>
                   </p>
                   <p>
-                    <i class="bi bi-browser-edge"></i>
+                    <i className="bi bi-browser-edge"></i>
                     <Link
-                      to="https://usmedschoice.com"
+                      to="https://getmedy.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      https://usmedschoice.com
+                      https://getmedy.com/
                     </Link>
                   </p>
+                  <div className="account-section f-sm justify-content-start">
+                    <Link
+                      to="https://www.facebook.com"
+                      target="_blank"
+                      className="social-icon"
+                      title="Facebook"
+                    >
+                      <i className="bi bi-facebook facebook"></i>
+                    </Link>
+                    <Link
+                      to="https://www.twitter.com"
+                      target="_blank"
+                      className="social-icon"
+                      title="twitter"
+                    >
+                      <i className="bi bi-twitter twitter"></i>
+                    </Link>
+                    <Link
+                      to="https://www.youtube.com"
+                      target="_blank"
+                      className="social-icon"
+                      title="youtube"
+                    >
+                      <i className="bi bi-youtube youtube"></i>
+                    </Link>
+                    <Link
+                      to="https://www.instagram.com"
+                      target="_blank"
+                      className="social-icon"
+                      title="instagram"
+                    >
+                      <i className="bi bi-instagram instagram"></i>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>

@@ -6,7 +6,7 @@ let DataProductGrid = [
     name: "TRAKEM 100MG",
     price: "340.00 – 410.00",
     sold_item: "119",
-    link: "#",
+    link: "/buy-now",
     id: 1,
   },
   {
@@ -15,7 +15,7 @@ let DataProductGrid = [
     name: "TRAKEM 100MG",
     price: "340.00 – 410.00",
     sold_item: "119",
-    link: "#",
+    link: "/buy-now",
     id: 2,
   },
   {
@@ -24,7 +24,7 @@ let DataProductGrid = [
     name: "TRAKEM 100MG",
     price: "340.00 – 410.00",
     sold_item: "119",
-    link: "#",
+    link: "/buy-now",
     id: 3,
   },
   {
@@ -33,7 +33,7 @@ let DataProductGrid = [
     name: "TRAKEM 100MG",
     price: "340.00 – 410.00",
     sold_item: "119",
-    link: "#",
+    link: "/buy-now",
     id: 4,
   },
   {
@@ -42,7 +42,7 @@ let DataProductGrid = [
     name: "TRAKEM 100MG",
     price: "340.00 – 410.00",
     sold_item: "119",
-    link: "#",
+    link: "/buy-now",
     id: 5,
   },
   {
@@ -51,7 +51,7 @@ let DataProductGrid = [
     name: "TRAKEM 100MG",
     price: "340.00 – 410.00",
     sold_item: "119",
-    link: "#",
+    link: "/buy-now",
     id: 6,
   },
   {
@@ -60,7 +60,7 @@ let DataProductGrid = [
     name: "TRAKEM 100MG",
     price: "340.00 – 410.00",
     sold_item: "119",
-    link: "#",
+    link: "/buy-now",
     id: 7,
   },
   {
@@ -69,7 +69,7 @@ let DataProductGrid = [
     name: "TRAKEM 100MG",
     price: "340.00 – 410.00",
     sold_item: "119",
-    link: "#",
+    link: "/buy-now",
     id: 8,
   },
   {
@@ -78,7 +78,7 @@ let DataProductGrid = [
     name: "TRAKEM 100MG",
     price: "340.00 – 410.00",
     sold_item: "119",
-    link: "#",
+    link: "/buy-now",
     id: 9,
   },
   {
@@ -87,7 +87,7 @@ let DataProductGrid = [
     name: "TRAKEM 100MG",
     price: "340.00 – 410.00",
     sold_item: "119",
-    link: "#",
+    link: "/buy-now",
     id: 10,
   },
   {
@@ -96,7 +96,7 @@ let DataProductGrid = [
     name: "TRAKEM 100MG",
     price: "340.00 – 410.00",
     sold_item: "119",
-    link: "#",
+    link: "/buy-now",
     id: 11,
   },
   {
@@ -105,7 +105,7 @@ let DataProductGrid = [
     name: "TRAKEM 100MG",
     price: "340.00 – 410.00",
     sold_item: "119",
-    link: "#",
+    link: "/buy-now",
     id: 12,
   },
 ];

@@ -105,13 +105,17 @@
   padding: 15px;
   border-bottom: 1px solid #ddd;
   transition: background-color 0.3s ease;
-  color: var(--color);
   font-weight: 600;
+}
+.medicine-list li a {
+  color: var(--color) !important;
 }
 
 .medicine-list li:hover {
   background-color: var(--color);
-  color: #f0f0f0;
+}
+.medicine-list li:hover a {
+  color: #f0f0f0 !important;
 }
 
 @media (max-width: 768px) {

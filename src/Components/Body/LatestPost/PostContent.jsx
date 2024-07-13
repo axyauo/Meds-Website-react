@@ -7,10 +7,10 @@ export default function PostContent({ value }) {
       <Link to={value.link}>
         <div className="posts">
           <div className="upper_div">
-            <img src={value.image} alt={value.name} />
+            <img src={value.image} alt={value.name} loading="lazy" />
             <div className="date_time">{value.time}</div>
             <div className="overlay_post">
-              <i class="bi bi-arrow-right-circle"></i>
+              <i className="bi bi-arrow-right-circle"></i>
             </div>
           </div>
           <div className="lower_div">

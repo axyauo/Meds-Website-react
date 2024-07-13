@@ -30,7 +30,7 @@ export default function BuyAdderallOnline() {
                 <div className="col-4">
                   <div className="sliders">
                     <div className="top_slide_img">
-                      <img src={adderall} alt="" />
+                      <img src={adderall} alt="sliding-img" />
                     </div>
                     <div className="top_slide_content text-center">
                       <p>BUY ADDERALL ONLINE</p>
@@ -43,9 +43,9 @@ export default function BuyAdderallOnline() {
                         285 Item Sold
                       </p>
                       <div className="content_box flex-column">
-                        <a href="#">
+                        <Link to="/buy-now">
                           <button>Buy Now</button>
-                        </a>
+                        </Link>
                         <div className="mt-2">
                           <i className="bi bi-heart"></i>
                           <i className="bi bi-search"></i>

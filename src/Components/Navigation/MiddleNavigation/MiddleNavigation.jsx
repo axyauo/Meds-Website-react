@@ -6,13 +6,13 @@ import { Link } from "react-router-dom";
 export default function MiddleNavigation() {
   return (
     <>
-      <section className="bg-black py-3">
+      <section className="bg-black middle-nav">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-3 col-12">
               <div className="logo_img">
                 <Link to="/">
-                  <img src={logo} alt="Logo" />
+                  <img src={logo} alt="Logo" loading="lazy" />
                 </Link>
               </div>
             </div>
@@ -48,7 +48,7 @@ export default function MiddleNavigation() {
                     <option value="19">Buy Xanax Online</option>
                   </select>
                   <button className="search_btn" type="submit">
-                    <i class="bi bi-search"></i>
+                    <i className="bi bi-search"></i>
                   </button>
                 </form>
               </div>
@@ -56,9 +56,9 @@ export default function MiddleNavigation() {
             <div className="col-lg-3 align-content-center desktop_view">
               <div className="cartValue d-flex ">
                 <button>
-                  <i class="bi bi-cart-fill"></i>
+                  <i className="bi bi-cart-fill"></i>
                 </button>
-                <span class="af-cart-amount gbl-bdge-bck-c">$0.00</span>
+                <span className="af-cart-amount gbl-bdge-bck-c">$0.00</span>
               </div>
             </div>
           </div>

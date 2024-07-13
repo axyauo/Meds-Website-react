@@ -2,8 +2,11 @@
   list-style: none;
   padding: 0;
 }
-.top_category li:hover {
-  color: var(--green);
+.top_category li a {
+  color: black !important;
+}
+.top_category li:hover a {
+  color: var(--green) !important;
   font-weight: 600;
 }
 
@@ -18,4 +21,8 @@
   color: white !important;
   font-weight: 700 !important;
   font-size: 20px;
+}
+.top_category_heading h2 {
+  font-size: 24px;
+  margin: 0;
 }

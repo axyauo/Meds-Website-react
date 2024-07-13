@@ -2,34 +2,34 @@ import person from "../../images/person.png";
 let DataTestimonialPerson = [
   {
     image: person,
-    name: "Marco Rubio",
+    name: "Missy Limana",
     designation: "Human Resources Director",
     comments:
-      "All was good. My order reached on time, although I wasn’t able to track if it will be delivered on the due date or later than that. Packaging was neat, customer service is also apt.",
+      " I was prescribed to take Tramadol after my knee surgery. Must say that this medication worked like charm. I had ordered it from Yourtramadol.com and the quality was top notch. Overall experience was AWESOME ",
     id: 1,
   },
   {
     image: person,
-    name: "Rick Scott",
+    name: "Martha Brown",
     designation: "Software Engineer",
     comments:
-      "I've been purchasing my prescription medications from this site for over a year now. The prices are unbeatable, and the delivery is always prompt. Highly recommended!",
+      "The only issue I had with your site was that my package was held at the customs and I had to wait longer than your estimated shipping time to get my medicine",
     id: 2,
   },
   {
     image: person,
-    name: "Tom Petty",
+    name: "Hanna Lisem",
     designation: "Project Manager",
     comments:
-      "The customer service team here is incredible! They helped me find the exact medication I needed and ensured it arrived quickly. I'll definitely be ordering again.",
+      " I met with an accident a few weeks ago and my knees got injured  severely, I put forth this issue to one of my friends and he suggested me to try out this amazing drug. After getting the advice from my doctor I made a purchase online.",
     id: 3,
   },
   {
     image: person,
-    name: "Shaquille O'Neal",
+    name: "Ronne Galle ",
     designation: "Data Scientist.",
     comments:
-      "This website offers a great selection of medicines at affordable prices. I've never had any issues with my orders, and the quality is top-notch.",
+      "“ Finally! A pain killer that actually works for me! Being a sportsman, I really needed a drug that is safe to use and is effective for me. Thanks to Tramadol ",
     id: 4,
   },
   {

@@ -9,7 +9,9 @@ import About from "./Components/Pages/About/About";
 import Contact from "./Components/Pages/Contact/Contact";
 import Shop from "./Components/Pages/Shop/Shop";
 import Faqs from "./Components/Pages/Faqs/Faqs";
+import BuyNow from "./Components/Pages/BuyNow/BuyNow";
 import BuyAdderallOnline from "./Components/Body/CategoryPages/BuyAdderallOnline/BuyAdderallOnline";
+import FeaturedProductPage from "./Components/Pages/FeaturedProductPage/FeaturedProductPage";
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/shop" element={<Shop />} />
+        <Route path="/featured-product" element={<FeaturedProductPage />} />
         <Route path="/faqs" element={<Faqs />} />
+        <Route path="/buy-now" element={<BuyNow />} />
         <Route path="/buy-adderall-online" element={<BuyAdderallOnline />} />
       </Routes>
       <Footer />
